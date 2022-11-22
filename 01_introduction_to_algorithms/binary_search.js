@@ -1,3 +1,4 @@
+// TODO: Remove duplication
 const form = document.querySelector('.main__form');
 const formBig = document.querySelector('.main__form-big');
 
@@ -39,6 +40,7 @@ function binarySearch() {
   return NaN
 }
 
+// Big Array Search
 function bigArrayBinarySearch(arrayLength, searchIntNumber) {
 
   const array = [...new Array(arrayLength).keys()];
